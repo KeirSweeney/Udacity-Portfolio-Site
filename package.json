@@ -1,0 +1,19 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "Udacity project to create a portfolio site using HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeirSweeney/Udacity-Portfolio-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeirSweeney/Udacity-Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/KeirSweeney/Udacity-Portfolio-Site#readme"
+}
