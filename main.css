@@ -1,33 +1,32 @@
 body {
   display: block;
   margin: 8px;
+  font-family: 'Cormorant', serif;
 }
 
 .container {
-  padding: 0 100px 0 100px;
+
   width: 100%;
   height: 100%;
 }
 
 .main-body {
-  width: 70%;
-  padding: inherit;
+  width: 80%;
+  padding-right: 3%;
   position: absolute;
   right: 0;
 }
 
 .name {
-  font-size: 60px;
+  font-size: 6vw;
   text-align: right;
   margin-bottom: 0;
-  font-family: 'Cormorant', serif;
 }
 
 .job-title {
-  font-size: 16px;
+  font-size: 2vw;
   text-align: right;
   margin: 0 0 20px 0;
-  font-family: 'Cormorant', serif;
   font-weight: 300;
 }
 
@@ -39,9 +38,9 @@ body {
 
 .featured-work {
   margin: 8px 0 0 5px;
-  font-family: 'Cormorant', serif;
+  color: grey;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 3.5vw;
 }
 
 .features {
@@ -59,13 +58,16 @@ body {
 }
 
 .feature-header {
+  font-weight: 600;
   text-align: center;
   word-break: break-all;
+  font-size:2.5vw;
 }
 
 .feature-url {
   text-align: center;
   word-break: break-all;
+  font-size: 1.5vw;
 }
 
 .feature-img {
