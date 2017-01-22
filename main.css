@@ -44,3 +44,31 @@ body {
   font-size: 35px;
 }
 
+.features {
+  display: flex;
+  margin-top: 15px;
+}
+
+.feature {
+  width: 30%;
+  height: auto;
+  margin-right: 5%;
+}
+.feature:last-child{
+    margin-right: 0;
+}
+
+.feature-header {
+  text-align: center;
+  word-break: break-all;
+}
+
+.feature-url {
+  text-align: center;
+  word-break: break-all;
+}
+
+.feature-img {
+  width: 100%;
+}
+
