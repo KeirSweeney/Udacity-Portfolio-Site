@@ -6,7 +6,8 @@ body {
 
 #coffee-icon {
   position: absolute;
-  top: 7vw;
+  top: 6vw;
+  font-size: 8vw;
 }
 
 .color-text {
