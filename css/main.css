@@ -4,6 +4,11 @@ body {
   height: 100%;
 }
 
+.feature-img {
+  display: block;
+  margin: 0 auto;
+}
+
 .feature-header {
   font-weight: 600;
   text-align: center;
@@ -29,9 +34,9 @@ body {
 }
 
 #coffee-icon {
-  position: relative;
   float: left;
   font-size: 15vw;
+  padding-top: 2vw;
 }
 
 .name {
@@ -73,10 +78,23 @@ body {
   width: 25vw;  
   height: 25vw;
 }
+
+@media (max-width: 768px){
+  .features>div:last-child {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+  }
+}
  
 @media (min-width: 768px) {
+  .featured-work {
+    text-align: left;
+    font-size: 4vw;
+  }
   .colors {
-    padding-left: 30px;
+    padding-left: 7vw;
+    padding-top: 23vw;
   }
 
   .colors>div {
@@ -87,62 +105,6 @@ body {
   }
 
   #coffee-icon {
-    font-size: 10vw;
-    position: relative;
-    left: 0;
+    font-size: 12vw;
   }
 }
-/*.name {
-  font-size: 6vw;
-  text-align: right;
-  margin-bottom: 0;
-}
-
-.job-title {
-  font-size: 2vw;
-  text-align: right;
-  margin: 0 0 20px 0;
-  font-weight: 300;
-}
-
-
-
-.featured-work {
-  margin: 8px 0 0 5px;
-  color: grey;
-  font-weight: 600;
-  font-size: 3.5vw;
-}
-
-.features {
-  display: flex;
-  margin-top: 15px;
-}
-
-.feature {
-  width: 30%;
-  height: auto;
-  margin-right: 5%;
-}
-.feature:last-child{
-    margin-right: 0;
-}
-
-.feature-header {
-  font-weight: 600;
-  text-align: center;
-  word-break: break-all;
-  font-size:2.5vw;
-}
-
-.feature-url {
-  text-align: center;
-  word-break: break-all;
-  font-size: 1.5vw;
-}
-
-.feature-img {
-  width: 100%;
-  height: auto;
-}*/
-
