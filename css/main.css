@@ -4,6 +4,15 @@ body {
   height: 100%;
 }
 
+.featured-work {
+  color: grey;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hero-image {
+}
+
 #coffee-icon {
   position: relative;
   float: left;
@@ -46,11 +55,8 @@ body {
 }
 
 .colors>div {
-/*  position: relative;
-  left:0;*/
   width: 25vw;  
   height: 25vw;
-/*  margin-right: 4vw;*/
 }
  
 @media (min-width: 768px) {
@@ -84,11 +90,7 @@ body {
   font-weight: 300;
 }
 
-.hero-image {
-  padding-top: 10px;
-  max-width: 100%;
-  height: auto;
-}
+
 
 .featured-work {
   margin: 8px 0 0 5px;
